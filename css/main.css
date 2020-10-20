@@ -4,8 +4,16 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  line-height: 1.5;
+  font-family: Overpass, sans-serif;
+  color: #fff;
+  background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
