@@ -17,3 +17,95 @@ html {
 body {
   margin: 0;
 }
+
+h2 {
+  font-size: 2rem;
+  margin: .5em;
+  padding-top: .1em;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+p {
+  margin: .5rem;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  font-size: 1.125rem;
+  margin: 0 1.5em;
+}
+
+a:hover,
+a:focus {
+  color: #ff9500;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+}
+
+.banner .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon svg {
+  width: 9rem;
+  fill: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h2 {
+    margin: 1em;
+    text-align: center;
+  }
+
+  h3 {
+    margin: .5em 0;
+    display: flex;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  a {
+    margin: .5em;
+    display: flex;
+    text-align: left;
+    font-size: .5rem;
+  }
+
+  p {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  .banner {
+    margin: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6vmin;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    margin: 6em;
+  }
+
+}
